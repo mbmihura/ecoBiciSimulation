@@ -7,4 +7,11 @@ AS
 		FIELDTERMINATOR = ',',
 		ROWTERMINATOR = '\n'
 	)
+	BULK INSERT [dbo].[Stations]
+	FROM 'c:\estaciones.csv'
+	WITH
+	(
+		FIELDTERMINATOR = ',',
+		ROWTERMINATOR = '\n'
+	)
 RETURN 0
