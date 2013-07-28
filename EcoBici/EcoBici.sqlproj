@@ -66,7 +66,7 @@
     <None Include="EcoBici.publish.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Stored Procedures\LoadDataFromCSVFile.sql" />
+    <Build Include="dbo\Stored Procedures\LoadTripsFromCSVFile.sql" />
     <Build Include="dbo\Tables\Trips.sql" />
     <Build Include="dbo\Tables\Bicycles.sql" />
     <Build Include="dbo\Stored Procedures\Simulation.sql" />
@@ -77,6 +77,8 @@
     <Build Include="dbo\Functions\ED.sql" />
     <Build Include="dbo\Functions\IA.sql" />
     <Build Include="dbo\Functions\TV.sql" />
+    <Build Include="dbo\Tables\StationsDefinition.sql" />
+    <Build Include="dbo\Stored Procedures\LoadStationsFromCSVFile.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="dbo\Script.PostDeployment.sql" />

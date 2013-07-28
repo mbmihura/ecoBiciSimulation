@@ -10,5 +10,8 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
+-- Load Stations List.
+EXEC [dbo].[LoadStationsFromCSVFile];
+
 -- Load Trips.
-EXEC [dbo].[LoadDataFromCSVFile];
+EXEC [dbo].[LoadTripsFromCSVFile];
