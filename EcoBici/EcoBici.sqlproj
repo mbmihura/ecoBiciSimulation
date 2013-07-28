@@ -58,6 +58,9 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="dbo\Tables" />
+    <Folder Include="dbo\User Defined Table Types" />
+    <Folder Include="dbo\Views" />
+    <Folder Include="dbo\Functions" />
   </ItemGroup>
   <ItemGroup>
     <None Include="EcoBici.publish.xml" />
@@ -68,6 +71,12 @@
     <Build Include="dbo\Tables\Bicycles.sql" />
     <Build Include="dbo\Stored Procedures\Simulation.sql" />
     <Build Include="dbo\Tables\Stations.sql" />
+    <Build Include="dbo\Tables\Results.sql" />
+    <Build Include="dbo\User Defined Table Types\ByclesInitialAmountPerStations.sql" />
+    <Build Include="dbo\Views\RandomV.sql" />
+    <Build Include="dbo\Functions\ED.sql" />
+    <Build Include="dbo\Functions\IA.sql" />
+    <Build Include="dbo\Functions\TV.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="dbo\Script.PostDeployment.sql" />
