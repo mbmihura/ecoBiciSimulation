@@ -69,18 +69,22 @@
     <Build Include="dbo\Stored Procedures\LoadTripsFromCSVFile.sql" />
     <Build Include="dbo\Tables\Trips.sql" />
     <Build Include="dbo\Tables\Bicycles.sql" />
-    <Build Include="dbo\Stored Procedures\Simulation.sql" />
+    <Build Include="dbo\Stored Procedures\Simulate.sql" />
     <Build Include="dbo\Tables\Stations.sql" />
     <Build Include="dbo\Tables\Results.sql" />
-    <Build Include="dbo\User Defined Table Types\ByclesInitialAmountPerStations.sql" />
+    <Build Include="dbo\User Defined Table Types\BicyclesInitialAmountPerStations.sql" />
     <Build Include="dbo\Views\RandomV.sql" />
     <Build Include="dbo\Functions\ED.sql" />
     <Build Include="dbo\Functions\IA.sql" />
     <Build Include="dbo\Functions\TV.sql" />
     <Build Include="dbo\Tables\StationsDefinition.sql" />
     <Build Include="dbo\Stored Procedures\LoadStationsFromCSVFile.sql" />
+    <Build Include="dbo\Tables\ScenarioA.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="dbo\Script.PostDeployment.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="EcoBici.refactorlog" />
   </ItemGroup>
 </Project>

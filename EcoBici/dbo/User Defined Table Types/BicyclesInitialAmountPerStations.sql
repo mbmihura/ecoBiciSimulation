@@ -1,4 +1,4 @@
-﻿CREATE TYPE [dbo].[ByclesInitialAmountPerStations] AS TABLE 
+﻿CREATE TYPE [dbo].[BicyclesInitialAmountPerStations] AS TABLE 
 (
 	[idEstacion] INT NOT NULL,
 	[NombreEstacion] varchar(50),
